@@ -1,6 +1,6 @@
 .header {
   height: 150px;
-  background-image: linear-gradient(180deg, #D3281D, #F7FE2E); 
+  background-image: url(Orange.png); 
   background-size: 100% 100%;
   margin-bottom: px;
   color: #fff;
@@ -24,22 +24,24 @@ body {
   overflow: hidden;
   width:800px;
   height:1300px;
+  background-image: url(image16.jpg);
+  background-size: 800px 1300px;
+  background-repeat: no-repeat;
 }
 
-ccform-addon{
-	color:#f8ae45; 
-	float:left;
-	padding:8px;
-	width:8%;
-	background:#FFFFFF;
-	text-align:center;	
-}
+i {
+  position: relative;
+  left: 3px;
+  top: 40px;
+  color: #fff;
 
+}
 .input-show{
 	margin-bottom:10px;
 	width:100%;
 }
-.input-box{
+input{
+  
 	color:#000000; 
 	background:#FFFFFF;
 	border:none;
@@ -47,7 +49,9 @@ ccform-addon{
 	width:91.9%;
 	display:block;
 	font-family: 'Lato',Arial,sans-serif;
-	font-size:14px;
+	font-size:15px;
+  margin-left: 35px;
+  border-radius: 10px;
 }
  .btn{
     color: lightgrey;
@@ -65,10 +69,16 @@ ccform-addon{
     border-radius: 7px;
     
   }
+  .style{
+     position: relative;transform: translate(25%,-130%);
+  }
+  .image{
+    width:150px;height:140px;
+  }
   @media screen and (max-width: 1300px) and (min-width: 1000px)
 {.header {
   height: 150px;
-  background-image: linear-gradient(180deg, #D3281D, #F7FE2E); 
+  background-image: url(Orange.png) ; 
   background-size: 100% 100%;
   margin-bottom: px;
   color: #fff;
@@ -92,22 +102,23 @@ body {
   overflow: hidden;
   width:800px;
   height:1300px;
+  background-image: url(image16.jpg);
+  background-size: 800px 1300px;
+  background-repeat: no-repeat;
 }
 
-ccform-addon{
-  color:#f8ae45; 
-  float:left;
-  padding:8px;
-  width:8%;
-  background:#FFFFFF;
-  text-align:center;  
+i {
+  position: relative;
+  left: 0px;
+  top: 40px;
+  color: #fff;
 }
 
 .input-show{
   margin-bottom:10px;
   width:100%;
 }
-.input-box{
+input{
   color:#000000; 
   background:#FFFFFF;
   border:none;
@@ -116,6 +127,7 @@ ccform-addon{
   display:block;
   font-family: 'Lato',Arial,sans-serif;
   font-size:14px;
+  margin-left: 25px;
 }
  .btn{
     color: lightgrey;
@@ -132,12 +144,15 @@ ccform-addon{
     cursor: pointer;
     border-radius: 7px;
     
+  }
+  .style{
+   "position: relative;transform: translate(25%,-130%);
   }
   }
 @media screen and (max-width: 1000px) and (min-width: 800px)
 {.header {
   height: 150px;
-  background-image: linear-gradient(180deg, #D3281D, #F7FE2E); 
+  background-image:  url(Orange.png); 
   background-size: 100% 100%;
   margin-bottom: px;
   color: #fff;
@@ -161,22 +176,23 @@ body {
   overflow: hidden;
   width:800px;
   height:1300px;
+  background-image: url(image16.jpg);
+  background-size: 800px 1300px;
+  background-repeat: no-repeat;
 }
 
-ccform-addon{
-  color:#f8ae45; 
-  float:left;
-  padding:8px;
-  width:8%;
-  background:#FFFFFF;
-  text-align:center;  
+i {
+  position: relative;
+  left: 0px;
+  top: 40px;
+  color: #fff;
 }
 
 .input-show{
   margin-bottom:10px;
   width:100%;
 }
-.input-box{
+input{
   color:#000000; 
   background:#FFFFFF;
   border:none;
@@ -185,6 +201,7 @@ ccform-addon{
   display:block;
   font-family: 'Lato',Arial,sans-serif;
   font-size:14px;
+  margin-left: 25px;
 }
  .btn{
     color: lightgrey;
@@ -201,6 +218,9 @@ ccform-addon{
     cursor: pointer;
     border-radius: 7px;
     
+  }
+   .style{
+   "position: relative;transform: translate(25%,-130%);
   }
 
 }
@@ -208,7 +228,7 @@ ccform-addon{
 {
   .header {
   height: 150px;
-  background-image: linear-gradient(180deg, #D3281D, #F7FE2E); 
+  background-image:url(Orange.png);  
   background-size: 100% 100%;
   margin-bottom: px;
   color: #fff;
@@ -232,22 +252,23 @@ body {
   overflow: hidden;
   width:550px;
   height:1300px;
+  background-image: url(image16.jpg);
+  background-size: 800px 1300px;
+  background-repeat: no-repeat;
 }
 
-ccform-addon{
-  color:#f8ae45; 
-  float:left;
-  padding:8px;
-  width:8%;
-  background:#FFFFFF;
-  text-align:center;  
+i {
+  position: relative;
+  left: 0px;
+  top: 40px;
+  color: #fff;
 }
 
 .input-show{
   margin-bottom:10px;
   width:100%;
 }
-.input-box{
+input{
   color:#000000; 
   background:#FFFFFF;
   border:none;
@@ -256,6 +277,7 @@ ccform-addon{
   display:block;
   font-family: 'Lato',Arial,sans-serif;
   font-size:14px;
+  margin-left: 25px;
 }
  .btn{
     color: lightgrey;
@@ -273,12 +295,15 @@ ccform-addon{
     border-radius: 7px;
     
   }
+   /*.style{
+   position: relative;transform: translate(25%,-130%);
+  }*/
 }
 @media screen and (min-width:300px) and (max-width:600px )
 {
   .header {
   height: 150px;
-  background-image: linear-gradient(180deg, #D3281D, #F7FE2E); 
+  background-image: url(Orange.png); 
   background-size: 100% 100%;
   margin-bottom: px;
   color: #fff;
@@ -301,24 +326,24 @@ body {
   padding: 0 0 20px;
   background: #fff;
   overflow: hidden;
-  width:350px;
+  width:480px;
   height:1300px;
+  background-image: url(image16.jpg);
+  background-size: 800px 1300px;
+  background-repeat: no-repeat;
 }
 
-ccform-addon{
-  color:#f8ae45; 
-  float:left;
-  padding:8px;
-  width:8%;
-  background:#FFFFFF;
-  text-align:center;  
+i {
+  position: relative;
+  left: 0px;
+  top: 40px;
+  color: #fff;
 }
-
 .input-show{
   margin-bottom:10px;
   width:100%;
 }
-.input-box{
+input{
   color:#000000; 
   background:#FFFFFF;
   border:none;
@@ -327,6 +352,7 @@ ccform-addon{
   display:block;
   font-family: 'Lato',Arial,sans-serif;
   font-size:14px;
+  margin-left: 25px;
 }
  .btn{
     color: lightgrey;
@@ -344,17 +370,25 @@ ccform-addon{
     border-radius: 7px;
     
   }
+   .style{
+   position: relative;transform: translate(25%,-120%);
+  }
+  p{
+    float: center;
+    max-width: 350px;
+  }
 }
 @media screen and (min-width:200px) and (max-width:300px )
 {
   .header {
   height: 150px;
-  background-image: linear-gradient(180deg, #D3281D, #F7FE2E); 
+  background-image: url(Orange.png); 
   background-size: 100% 100%;
   margin-bottom: px;
   color: #fff;
   padding: 10px 15px;
   overflow: hidden;
+  
 }
 body {
   margin: 0;
@@ -373,94 +407,19 @@ body {
   overflow: hidden;
   width:200px;
   height:1300px;
-  
 }
 
-ccform-addon{
-  color:#f8ae45; 
-  float:left;
-  padding:8px;
-  width:8%;
-  background:#FFFFFF;
-  text-align:center;  
-}
-
-.input-show{
-  margin-bottom:10px;
-  width:100%;
-}
-.input-box{
-  color:#000000; 
-  background:#FFFFFF;
-  border:none;
-  padding:15.5px;
-  width:91.9%;
-  display:block;
-  font-family: 'Lato',Arial,sans-serif;
-  font-size:14px;
-}
- .btn{
-    color: lightgrey;
-    background:#5F239B;
-    border: 3px solid #87239B;
-    height: 50px;
-    width: 100px;
-    font-weight: 700;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: ease-in-out 0.25s;
-    margin-left: 80px;
-    cursor: pointer;
-    border-radius: 7px;
-    
-  }
-}
-@media screen and (min-width:100px) and (max-width:200px )
-{
-
-  .header {
-  height: 150px;
-  background-image: linear-gradient(180deg, #D3281D, #F7FE2E); 
-  background-size: 100% 100%;
-  margin-bottom: px;
+i {
+  position: relative;
+  left: 0px;
+  top: 40px;
   color: #fff;
-  padding: 10px 15px;
-  overflow: hidden;
 }
-body {
-  margin: 0;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  color: #454545;
-  background: #374046;
-  border-style: 2px solid red;
-}
-.content{
-
-  border-radius: 4px;
-  margin: 40px auto;
-  padding: 0 0 20px;
-  background: #fff;
-  overflow: hidden;
-  width:100px;
-  height:1300px;
-}
-
-ccform-addon{
-  color:#f8ae45; 
-  float:left;
-  padding:8px;
-  width:8%;
-  background:#FFFFFF;
-  text-align:center;  
-}
-
 .input-show{
   margin-bottom:10px;
   width:100%;
 }
-.input-box{
+input{
   color:#000000; 
   background:#FFFFFF;
   border:none;
@@ -469,6 +428,7 @@ ccform-addon{
   display:block;
   font-family: 'Lato',Arial,sans-serif;
   font-size:14px;
+  margin-left: 25px;
 }
  .btn{
     color: lightgrey;
@@ -481,9 +441,17 @@ ccform-addon{
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: ease-in-out 0.25s;
-    margin-left: 80px;
+    margin-left: 200px;
     cursor: pointer;
     border-radius: 7px;
     
   }
+   .style{
+   position: relative;transform: translate(25%,-120%);
+  }
+  p{
+    float: center;
+    max-width: 150px;
+  }
+ 
 }
